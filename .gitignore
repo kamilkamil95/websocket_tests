@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+
+# Virtual Environment
+venv/
+.env
+*.env*
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and crash reports
+*.log
+logs/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# JetBrains (PyCharm)
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Playwright
+playwright/.cache/
+
+# Test artifacts
+*.png
+*.mp4
+*.webm
+*.json
+trace.zip
+
+# Docker
+.dockerignore
+*.tar
+
+# GitLab CI/CD
+.gitlab-ci.yml
+
+# Node.js dependencies (if any frontend parts)
+node_modules/
+package-lock.json
+yarn.lock
